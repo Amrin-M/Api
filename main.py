@@ -35,7 +35,7 @@ CLASS_NAMES_LEAF = ["Bacterial wilt", "Cordana", "Healthy","Pestalotiopsis","Sig
 
 @app.get("/ping")
 async def ping():
-    return "Hello, I am alive,How are you"
+    return "Hello, I am alive"
 
 def read_file_as_image(data) -> np.ndarray:
    
