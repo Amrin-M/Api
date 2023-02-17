@@ -1,0 +1,14 @@
+tensorflow==2.8.0
+fastapi
+uvicorn
+python-multipart
+pillow
+tensorflow-serving-api==2.5.0
+matplotlib
+numpy
+
+
+Process for ruuning the project:******
+
+1. Go to the "api" folder and run the "main.py" file.
+2. copy the url in the web browser -- > http://localhost:8000/docs
